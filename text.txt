@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Flower</title>
+  <style>
+    body {
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      text-align: center;
+      color: white;
+      font-family: 'Segoe Script', cursive;
+      padding: 50px;
+    }
+    h1 {
+      background: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 20px;
+      font-size: 28px;
+    }
+    .letter-button {
+      margin-top: 50px;
+      padding: 15px 30px;
+      background-color: rgba(255, 182, 193, 0.8);
+      border: none;
+      border-radius: 25px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .letter-button:hover {
+      background-color: rgba(255, 105, 180, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <h1>So many flowers here, but my pasandida flower is you 💐</h1>
+  <br><br>
+  <button class="letter-button" onclick="openLetter()">💌 Tap to Open Special Letter 💌</button>
+
+  <script>
+    function openLetter() {
+      window.open('special-letter.html', '_blank');
+    }
+  </script>
+</body>
+</html>
